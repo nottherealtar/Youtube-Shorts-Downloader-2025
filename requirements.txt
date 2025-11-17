@@ -1,0 +1,10 @@
+# YouTube Downloader Pro - Dependencies
+
+# Core downloader
+yt-dlp>=2024.0.0
+
+# Note: tkinter comes with Python standard library (no install needed)
+# Note: FFmpeg must be installed separately on the system
+#       Windows: winget install ffmpeg
+#       Mac: brew install ffmpeg
+#       Linux: sudo apt install ffmpeg

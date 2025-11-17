@@ -1,0 +1,79 @@
+========================================
+YouTube Downloader Pro - Setup Guide
+========================================
+
+QUICK START (Windows):
+----------------------
+1. Double-click "install.bat"
+2. Follow the prompts
+3. Double-click "run.bat" to launch the app
+
+MANUAL INSTALLATION:
+--------------------
+
+Prerequisites:
+- Python 3.8 or higher
+- FFmpeg (for video processing)
+
+Step 1: Install Python Dependencies
+------------------------------------
+Open Command Prompt or PowerShell and run:
+
+    pip install -r requirements.txt
+
+Step 2: Install FFmpeg
+----------------------
+Windows:
+    winget install ffmpeg
+
+Mac:
+    brew install ffmpeg
+
+Linux (Ubuntu/Debian):
+    sudo apt update
+    sudo apt install ffmpeg
+
+Linux (Fedora):
+    sudo dnf install ffmpeg
+
+Step 3: Run the Application
+----------------------------
+    python app.py
+
+FEATURES:
+---------
+✓ Download YouTube videos, shorts, playlists, and channels
+✓ View metadata: duration, views, upload date, tags
+✓ Select specific videos or download all
+✓ Concurrent downloads (configurable)
+✓ Quality selection (best, 1080p, 720p, 480p, audio only)
+✓ Real-time progress tracking
+✓ Persistent configuration
+
+USAGE:
+------
+1. Paste a YouTube URL (video, playlist, channel, or shorts)
+2. Click "Fetch Info" to see available videos
+3. Select quality and download location
+4. Click "Download All" or select specific videos and click "Download Selected"
+5. Watch the progress in real-time
+
+TROUBLESHOOTING:
+----------------
+Q: "Python is not recognized"
+A: Install Python from python.org and make sure to check "Add Python to PATH"
+
+Q: "FFmpeg is not recognized"
+A: Install FFmpeg and restart your terminal/IDE
+
+Q: Downloads fail with format errors
+A: Make sure FFmpeg is properly installed and in your PATH
+
+Q: App won't start
+A: Check that all dependencies are installed: pip install -r requirements.txt
+
+SUPPORT:
+--------
+For issues or questions, check the journal file for development notes.
+
+========================================

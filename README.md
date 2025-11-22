@@ -5,9 +5,7 @@ A modern, user-friendly desktop application for downloading YouTube videos, shor
 ## ✨ Features
 
 - **Multiple Download Types**
-  - Download individual YouTube videos
   - Download YouTube Shorts
-  - Download entire playlists
   - Download all shorts from a channel
 
 - **Quality Selection**
